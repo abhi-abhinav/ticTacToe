@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A tic tac toe game for command line interface.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,9 @@
     "tic-tac-toe"
   ],
   "author": "Abhinav C Yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0"
+  }
 }
